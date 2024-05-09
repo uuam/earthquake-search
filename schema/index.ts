@@ -12,3 +12,4 @@ export const EarthquakeSchema = z.object({
     }),
   }),
 });
+export const EarthquakeArraySchema = EarthquakeSchema.array();

@@ -1,4 +1,4 @@
-import PrintData from "@/components/print-data";
+import PrintData from "@/components/earthquakePage/print-data";
 import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default async function Home() {
 
   return (
-    <main className=" px-10  mx-auto my-6">
+    <main className=" w-auto">
       <PrintData />
     </main>
   );
