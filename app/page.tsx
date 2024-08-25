@@ -27,7 +27,8 @@ export const metadata: Metadata = {
 export default async function Home() {
 
   return (
-    <main className=" w-auto">
+    <main className=" w-auto flex flex-col">
+      <div className="mx-auto my-2 text-5xl">台灣即時地震查詢</div>
       <PrintData />
     </main>
   );
